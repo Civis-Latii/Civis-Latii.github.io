@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>L V T<\title>
+  <title>L V T<\title>
   </head>
 </html>
 <body>
