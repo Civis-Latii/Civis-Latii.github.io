@@ -7,8 +7,10 @@
 
 <h1>Welcome to Latin Vocabulary Tester by Civis-Latii</h1>
 <p>Select what to quiz on:</p>
-<button type="button" onclick="mainfull()">Tempta!<\button>
-<yolo>YOLO</yolo>
+<button type="button" onclick="abcd()">Tempta!
+  <\button>
+  
+<yolo id="yolo">YOLO</yolo>
 
 
 
@@ -16,6 +18,9 @@
 <script>document.getElementById("yolo").innerHTML = "Hello JavaScript!";</script>
 <script>
   import java.util.*;
+  function abcd(){
+    alert("hello")
+  }
   function lattoeng(){
     len = int(len(v)/3-1) //list is %3 so we -1 to prevent index error
     for (i in range(length))  {    
@@ -40,7 +45,6 @@
     }
     return  
   }
-  
   function mainfull(){
     while (True)
         alert("#Welcome to LVT")
