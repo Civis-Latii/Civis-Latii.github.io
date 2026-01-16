@@ -8,5 +8,9 @@
 <h1>Welcome to Latin Vocabulary Tester by Civis-Latii</h1>
 <p>Select what to quiz on:</p>
 
+<script>document.getElementById("demo").innerHTML = "Hello JavaScript!";</script>
+
+<demo>hi <\demo>
+
 </body>
 </html>
